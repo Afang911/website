@@ -1,0 +1,67 @@
+/* This is a CSS comment */
+
+/* Reset some default styles to ensure consistency across browsers */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define styles for the body of the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Style headings */
+h1 {
+    font-size: 24px;
+    color: #007bff;
+    border-style: groove;
+}
+
+nav {
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 10px; /* Add some padding to the top and bottom */
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style the navigation links */
+  nav a {
+    color: #fff; /* Text color for links */
+    text-decoration: none; /* Remove underlines from links */
+    margin: 0 10px; /* Add spacing between links */
+    font-weight: bold; /* Make the text bold */
+    font-size: 16px; /* Set font size */
+    transition: color 0.3s; /* Smooth color transition on hover */
+  }
+  
+  /* Change link color on hover */
+  nav a:hover {
+    color: #ff9900; /* Change link color on hover */
+  }
+/* Style paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Define a class for highlighting text */
+.highlight {
+    background-color: yellow;
+}
+
+/* Define styles for links */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Apply styles to links on hover */
+a:hover {
+    text-decoration:underline;
+}
